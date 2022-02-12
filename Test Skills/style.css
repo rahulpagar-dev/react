@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+body{
+    background-color: #344955;
+    color: white;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;   
+}
+
+ul{
+    list-style: none;
+}
+
+.Nevigation{
+    background-color: #232F34;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    padding-right: 1rem;
+    align-items: center;
+
+}
+
+li{
+    margin-left: 1rem;
+ }
+
+ li:hover{
+     color:#F9AA33;
+ }
+
+h1{
+    padding-left: 1rem;
+}
+
+h1:hover{
+    color:#F9AA33;
+}
+
+#slider1{
+    display: flex;
+    background-color: #4A6572;
+    justify-content: center;
+    height: 500px;
+    padding: 1rem 1rem;
+    gap: 1rem;
+
+}
+
+.Section-style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0 1rem;
+    margin: auto;
+}
+
+
+@media screen and (max-width:600px) {
+    article{
+      width:100%;
+      justify-content: center;
+    }
+    .Section-style{
+        justify-content: center;
+    }
+    
+}
+    
+
+article{
+   width:30%;
+   min-width: 300px;
+   gap:20px;
+   text-align: center;
+   border:1px solid #232f3493;
+   margin: 1rem;
+   border-radius:8px;
+   padding:0.3rem;
+   background-color: #3b4e57;
+}
+
+article p{
+    text-align: left;
+    line-height: 1.6;
+}
+
+article h2:hover{
+color: #F9AA33;
+}
